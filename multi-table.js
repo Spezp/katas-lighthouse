@@ -32,8 +32,9 @@ var multiplicationTable = function(maxValue) {
 			for(ii = 0; ii < (digits.length - spaces.length); ii ++) {
 				tableArray.push(' ')
 			}
+//Logic to increase table number so that it corrosponds with multiplication.
 			tableCount = tableCount + rowCount;
-			if (i === maxValue -1) {//<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+			if (i === maxValue -1) {
 				tableArray.push('|');
 				console.log(tableArray.join(''))
 				rowCount++;

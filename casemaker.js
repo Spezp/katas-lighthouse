@@ -8,7 +8,7 @@ var makeCase = (input, whichCase) => {
 			newArray.push(input[arrayIndex].charAt(0).toUpperCase() + input[arrayIndex].slice(1))
 		}
 		return newArray;
-	}
+	}		
 	var everyFirstChar = (input) => {
 		let newArray = [];
 		for (let arrayIndex = 0; arrayIndex < input.length; arrayIndex++) {
